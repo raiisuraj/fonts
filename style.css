@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("Roboto/Roboto-Bold.ttf");
+  }
+  @font-face {
+  font-family: "Merienda";
+  src: url("Merienda/Merienda-Bold.ttf");
+  }
+
+p{
+    font-family: Merienda;
+}
+
+p2{
+    font-family: Roboto;
+}
+p3{
+    font-family: cursive, sans-serif;
+}
+
+  p{float: center;
+    width: 250;}
+
+
+*{
+ margin: 2px;
+ padding: 2px;
+}
+body{
+ font-family: times in roman;
+}
+.main{
+
+ margin: 2%;
+}
+	
+		.card{
+			width: 32%;
+           box-shadow: 2px 4px 4px 10px rgba(0, 0, 0, 0.2);
+           display: inline-block;
+	border-radius: 6px 4px 4px 4px;
+	position: relative;
+		}
+			img{width: 100%;
+       border-radius: 6px 6px 6px 6px;
+			}
+h4{position: absolute;
+top: 0px;
+right: 0px;
+margin: 18px;
+color: white;
+text-shadow: 3px 3px 4px red;}
+
+
+
